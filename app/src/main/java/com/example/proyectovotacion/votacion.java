@@ -12,7 +12,7 @@ import android.widget.Toast;
 public class votacion extends AppCompatActivity {
     RadioGroup radioGroup;
     Button botonvotar;
-    public static int candidato1, candidato2, candidato3;
+    public static int candidato1, candidato2, candidato3, candidato4;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,6 +32,7 @@ public class votacion extends AppCompatActivity {
                     intent.putExtra("voto1", candidato1);
                     intent.putExtra("voto2", candidato2);
                     intent.putExtra("voto3", candidato3);
+                    intent.putExtra("voto4", candidato4);
                     startActivity(intent);
                 }
             }
@@ -49,6 +50,9 @@ public class votacion extends AppCompatActivity {
                 break;
             case R.id.rb3:
                 candidato3++;
+                break;
+            case R.id.rb4:
+                candidato4++;
                 break;
         }
     }

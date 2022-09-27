@@ -21,8 +21,8 @@
 
     <RadioGroup
         android:id="@+id/radiogroup"
-        android:layout_width="167dp"
-        android:layout_height="473dp"
+        android:layout_width="161dp"
+        android:layout_height="513dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.869"
@@ -33,20 +33,26 @@
         <RadioButton
             android:id="@+id/rb1"
             android:layout_width="match_parent"
-            android:layout_height="150dp"
+            android:layout_height="130dp"
             android:text="Omar Aizprua" />
 
         <RadioButton
             android:id="@+id/rb2"
             android:layout_width="match_parent"
-            android:layout_height="150dp"
+            android:layout_height="130dp"
             android:text="Vivian Valenzuela" />
 
         <RadioButton
             android:id="@+id/rb3"
             android:layout_width="match_parent"
-            android:layout_height="150dp"
+            android:layout_height="130dp"
             android:text="Martin Candanedo" />
+
+        <RadioButton
+            android:id="@+id/rb4"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="Nulo" />
     </RadioGroup>
 
     <Button
@@ -83,7 +89,7 @@
         app:layout_constraintHorizontal_bias="0.14"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.404"
+        app:layout_constraintVertical_bias="0.351"
         app:srcCompat="@drawable/vivianv" />
 
     <ImageView
@@ -95,6 +101,7 @@
         app:layout_constraintHorizontal_bias="0.14"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.71"
+        app:layout_constraintVertical_bias="0.587"
         app:srcCompat="@drawable/martinc" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
